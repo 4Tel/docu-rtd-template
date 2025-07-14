@@ -18,3 +18,8 @@
 ## Optional
 1. `sidebars.ts`
 2. `docs/`: documentation files
+3. `docusaurus.config.ts`: 
+   * `themeConfig.favicon`: site favicon
+   * `themeConfig.navbar.logo.src`: logo image
+   * `themeConfig.footer.logo.src`: footer logo image
+   * `themeConfig.footer.copyright`: copyright text
