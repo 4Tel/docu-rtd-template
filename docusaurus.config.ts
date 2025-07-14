@@ -7,8 +7,10 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const site_url = 'https://docu-rtd-template.readthedocs.io/';
-const repo_url = 'https://github.com/4Tel/docu-rtd-template'
+const author = '4Tel';
+const repo_from = 'https://github.com/'
 const repo_name = 'docu-rtd-template'
+const repo_url = repo_from + author + '/' + repo_name
 
 /** Blog Information. */
 const meta: Config = {
@@ -94,7 +96,7 @@ const theme: ThemeConfig = {
 };
 
 const doc_settings = {
-  editUrl: repo_url + repo_name + '/blob/main/',
+  editUrl: repo_url + '/blob/main/',
   remarkPlugins: [remarkMath],
   rehypePlugins: [[rehypeKatex, { strict: false }]],
   showLastUpdateTime: true,
