@@ -16,5 +16,5 @@ build:
     # Build the site
     - npm run build
     # Copy generated files into Read the Docs directory
-    - mkdir $READTHEDOCS_OUTPUT/html/
+    - mkdir -p $READTHEDOCS_OUTPUT/html/
     - cp -r build/* $READTHEDOCS_OUTPUT/html/
