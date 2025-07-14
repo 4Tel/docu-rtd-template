@@ -62,7 +62,7 @@ const navigation: Navbar = {
     {
       label: "home",
       position: "left",
-      to: "/home",
+      to: "/",
     }
   ]
 };
