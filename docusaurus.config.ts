@@ -91,7 +91,7 @@ const theme: ThemeConfig = {
   navbar: navigation,
   footer: {
     style: 'dark',
-    copyright: `Copyright © ${new Date().getFullYear()}. Made by 4Tel.`,
+    copyright: `Copyright © ${new Date().getFullYear()}. Made by ${author}.`,
   },
 };
 
