@@ -5,9 +5,9 @@ import { useColorMode } from "@docusaurus/theme-common";
 const scriptURL = "https://giscus.app/client.js";
 const attributes = {
   'data-repo': "4Tel/docu-rtd-template",
-  'data-repo-id': "",
+  'data-repo-id': "R_kgDOPMK-aA",
   'data-category': "General",
-  'data-category-id': "",
+  'data-category-id': "DIC_kwDOPMK-aM4Cs7Vt",
   'data-mapping': "pathname",
   'data-strict': "1",
   'data-reactions-enabled': "1",
