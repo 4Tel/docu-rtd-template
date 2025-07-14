@@ -7,7 +7,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const site_url = 'https://docu-rtd-template.readthedocs.io/';
-const repo_url = 'https://github.com/zc-r/docu-rtd-template'
+const repo_url = 'https://github.com/4Tel/docu-rtd-template'
 const repo_name = 'docu-rtd-template'
 
 /** Blog Information. */
@@ -63,7 +63,13 @@ const navigation: Navbar = {
       label: "home",
       position: "left",
       to: "/",
-    }
+    }, {
+      href: repo_url,
+      position: 'right',
+      className: 'header-github-link',
+      'aria-label': 'GitHub repository',
+    },
+
   ]
 };
 
